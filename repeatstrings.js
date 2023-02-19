@@ -1,10 +1,9 @@
 let string = 'hey';
 const repeatString = function () {
-    for (let num = 0; num <= 3; num++) {
-         string * num;
+    for (let i = 0; i <= 3; i++) {
+        console.log (string.repeat(i));
     }
-    console.log (repeatString);
+ 
 };
 
 repeatString();
-console.log (repeatString);
