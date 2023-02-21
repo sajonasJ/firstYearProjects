@@ -1,0 +1,127 @@
+.questions
+{
+  display:flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom:5%;
+  max-width: 100%;
+  min-width: 70%;
+  gap: .5rem;
+  align-items: center;
+}
+
+.topsect img
+{
+    width:60px;
+    height:60px;
+}
+
+.zubmit
+{
+  align-self: center;
+}
+
+#submit
+{
+  width: 80px;
+  height: 40px;
+  margin: 30px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+#submit:hover {
+  background-color: #555555;
+  transform:scale(1.2);
+  color: white;
+}
+
+/********************testing area********************/
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* custom styles */
+
+  /********************testing area********************/
+
+form 
+{
+  width: 90%;
+  margin:0 auto 0 auto;
+  padding-top:20px;
+  padding-left:20px ;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.bookinginput
+{
+display: flex;
+align-items: center;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: center;
+white-space: nowrap;
+background-color: #e9ecef;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+margin-bottom: 1rem;
+width: 100%;
+}
+
+.bookinginput p
+{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.formlength
+{
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+appearance: none;
+border-radius: .25rem;
+border-top-left-radius: 0.25rem;
+border-bottom-left-radius: 0.25rem;
+}
+
+
+select
+{
+  text-align: center;
+  background-color: #fff;
+  width: 60%;
+}
+
+::placeholder
+{
+  text-align: center;
+}
+
+option
+{
+  text-align: center;
+}

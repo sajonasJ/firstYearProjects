@@ -1,0 +1,54 @@
+{
+	"highScore": [
+		{
+			"rank": "1",
+			"name": "Balerion",
+			"score": "1000000"
+		},
+		{
+			"rank": "2",
+			"name": "Vhagar",
+			"score": "900000"
+		},
+		{
+			"rank": "3",
+			"name": "Meraxes",
+			"score": "800000"
+		},
+		{
+			"rank": "4",
+			"name": "Caraxes",
+			"score": "700000"
+		},
+		{
+			"rank": "5",
+			"name": "Sunfyre",
+			"score": "600000"
+		},
+		{
+			"rank": "6",
+			"name": "Syrax",
+			"score": "500000"
+		},
+		{
+			"rank": "7",
+			"name": "Seasmoke",
+			"score": "400000"
+		},
+		{
+			"rank": "8",
+			"name": "Drogo",
+			"score": "300000"
+		},
+		{
+			"rank": "9",
+			"name": "Viserion",
+			"score": "200000"
+		},
+		{
+			"rank": "10",
+			"name": "Rhaegal",
+			"score": "100000"
+		}
+	]
+}

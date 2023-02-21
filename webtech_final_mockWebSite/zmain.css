@@ -1,0 +1,390 @@
+.advert{
+    width:"560"; 
+    height:"315"; 
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.topsect
+{
+    background-color: #f7e1d7;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left-style: solid;
+    padding-left: 20px;
+    border-left-width: 0px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px #888888;
+    justify-content: center;
+    align-items: center;
+}
+
+.topsect img
+{
+    height: 60px;
+    width: 60px;
+}
+
+.topsect img:hover
+{
+    transform:scale(1.4);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.middlepic 
+{
+    display:flex;
+    height:250px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+img 
+{
+    display:block;
+    max-width: 95%;
+    max-height: 95%;
+    margin-top: 5px;
+}
+
+img:hover
+{
+    transform:scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    border-radius: 25px;
+    padding: auto;
+    background-color: #EF2D56;
+}
+
+footer
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tclass,th,td
+{
+    background-color:#f7e1d7;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #888888;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tsearch, th, td
+{
+    background-color:#f7e1d7;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.endmsg
+{
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.aboutus
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus p
+{
+    background-color:#DEDBD2;
+    text-indent: 30px;
+    margin: 0%;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h1
+{
+    margin-right: .5em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+h1:hover
+{
+    transform:scale(1.2);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.name-tag
+{
+    display:flex;
+    justify-content: center;
+}
+
+h2
+{
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color:#DEDBD2;
+    min-width: 382px;
+    border-radius: 100px;
+    max-width: 350px;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h2:hover
+{
+    transform:scale(1.2);
+    transition: 0.3s;
+    z-index: 1;
+    color: white;
+    background-color: #EF2D56;
+}
+
+h3
+{
+    padding: 5px;
+    background-color: #F7E1D7;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+h3:hover
+{
+    transform:scale(1.2);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+h4
+{   
+    text-align: center;
+    margin:0%;
+    padding: 5px;
+    padding:.25rem;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #B0C4B1;
+}
+
+h4:hover
+{
+    transform:scale(1.2);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.middlepic img
+{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.location
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 1em;
+}
+
+
+
+.cut
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;  
+ 
+}
+
+.cut div img
+{
+    flex:1;
+    
+        width: 300px;
+        height: 260px; 
+        object-fit: contain;
+    
+}
+
+.cut div
+{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 2.5px;
+    border-style: solid;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #f4cfbe;
+}
+
+.cut div p
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7E1D7;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    width: 145px;
+    height: 80px;
+}
+
+.info
+{
+    margin-right:13%;
+    margin-left:13%;
+    padding-left:2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+    background-color:#DEDBD2;
+    border-radius: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.info div
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.booknow
+{
+    margin-top:20px;
+}
+
+.booknow a
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    color: gold;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #888888;
+    transition-duration: 0.4s;
+  
+}
+
+.booknow a:hover {
+    background-color: #fffdfd;
+    transform:scale(1.5);
+    color: rgb(0, 0, 0);
+    transform:scale(1.2);
+}
+
+.sproducts
+{
+    padding:2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.productsearch{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.box
+{
+    height:40px;
+    width:60px;
+}
+
+.offered
+{
+    margin: 1rem;
+    padding: .5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#DEDBD2;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+ul
+{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px 15px 15px
+;
+}
+
+.services
+{
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    margin-top:2px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content:center ;
+}
+
+.p1
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.p2
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}

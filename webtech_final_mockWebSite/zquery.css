@@ -1,0 +1,194 @@
+/*****************************************************************************************************
+Table of Contents
+Google Fonts ...............................................11
+Query for Mobile Device.....................................14
+Query for Low Res tablets, Ipads............................40
+Query for tablets and Portrait Mode.........................94
+Query for Laptops and Desktops..............................123
+Query for Large Screens.....................................151
+
+*************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Dancing+Script:wght@400;600&display=swap');
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) 
+{
+
+    
+    img 
+    {
+        display:block;
+        max-width: 95%;
+        max-height: 95%;
+        margin-top: 5px;
+    }
+
+    nav 
+    {
+        flex-direction: row;
+        padding: 0%;
+        width: 280px;
+        border-radius: 10px;
+    }
+    nav.container a
+    {
+        width: 160px;
+    }
+}
+          
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px)
+{
+
+
+    nav
+    {
+        display:flex;
+        flex:1;
+        flex-direction: row;
+        border-radius: 10px;
+    }
+
+    nav.container a
+    {
+        width: 100px;
+    }
+    
+    .middlepic 
+    {
+        display:flex;
+        height:250px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        border-width: 5px;
+        padding: 2rem;
+        margin-top: 0px;
+    }
+    .aboutus
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2
+    {
+        max-width: 480px;
+    }
+
+    p h2
+    {
+        background-color:#DEDBD2;
+        text-indent: 30px;
+        max-width: 480px;
+        margin: 0%;
+        padding: 1em;
+    }
+
+    p
+    {
+        max-width: 450px;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+
+    .middlepic 
+    {
+        display:flex;
+        height:250px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        border-width: 5px;
+        padding: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-top: 0px;
+    }
+
+    p
+    {
+        max-width: 450px;
+    }
+
+    nav
+    {
+        border-radius: 10px;
+    }
+
+    nav.container a
+    {
+        width: 100px;
+    }
+}
+          
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+
+
+    .middlepic 
+    {
+        display:flex;
+        height:250px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        border-width: 5px;
+        padding: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: 0px;
+    }
+    
+    p
+    {
+        max-width: 450px;
+    }
+
+    nav.container a
+    {
+        width: 160px;
+    }
+}
+          
+/* Media Query for Large screens */
+@media (min-width: 1281px) 
+{
+
+    
+    .middlepic 
+    {
+        display:flex;
+        height:250px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        border-width: 5px;
+        padding: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 0px;
+    }
+
+    p
+    {
+        max-width: 450px;
+    }
+
+    nav.container a
+    {
+        width: 180px;
+    }
+}
